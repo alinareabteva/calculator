@@ -1,0 +1,23 @@
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .calculator-keypad {
+    width: 290px;
+    background: #000;
+  }
+
+  #display {
+    background: #000;
+    word-break: break-all;
+    width: 290px;
+    min-height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
